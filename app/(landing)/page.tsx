@@ -18,6 +18,7 @@ import { Footer } from "@/components/shared/footer";
 import { Testimonials } from "./_components/testimonials";
 import { FAQ } from "./_components/faq-section";
 import ServiceSection from "./_components/services-section";
+import { InternShipsTabs } from "./_components/internship-tabs";
 
 const LandingPage = () => {
   return (
@@ -117,6 +118,9 @@ const LandingPage = () => {
         </div>
         <div className="mt-8 lg:my-20">
           <ServiceSection/>
+        </div>
+        <div className="mt-8 lg:my-20">
+          <InternShipsTabs/>
         </div>
 
         {/* FAQ Section */}
