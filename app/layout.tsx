@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/providers/theme-provider";
+import { SmoothScrollProvider } from "@/providers/smooth-scroll-provider";
+import { GeistSans } from "geist/font/sans";
+import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +20,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <body className={cn(GeistSans.variable, "font-sans")}>
+      <SmoothScrollProvider>
+        <ThemeProvider
+          defaultTheme="dark"
+          attribute="class"
+          enableSystem={false}
+        >
+          {children}
+        </ThemeProvider>
+        </SmoothScrollProvider>
+      </body>
     </html>
   );
 }
