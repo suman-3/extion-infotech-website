@@ -10,7 +10,7 @@ export const all = [
         title: "Cloud Computing Internship",
         description: "An AI-driven app that simulates realistic job interviews and provides feedback to help users improve their performance.",
         github: "",
-        image: "/projects/cloud.jpeg",
+        image: "/projects/cloud.jpg",
         link: "https://praxis.exions.xyz",
     },
     {
