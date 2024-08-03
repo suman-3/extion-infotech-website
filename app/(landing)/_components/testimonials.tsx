@@ -7,31 +7,31 @@ import React, { HTMLAttributes, ReactNode } from "react";
 export const Testimonials = () => {
   const testimonials = [
     {
-      content: "This looks so clean, love it!",
-      name: "@_lic",
+      content: " As the founder, I witnessed their innovative solutions propel our business. They don't just deliver; they craft impactful experiences. Their dedication and expertise make them an invaluable partner. Highly recommended.",
+      name: "@Mangalam Gupta",
       image: "",
     },
     {
-      content: "Nice, simple and sleek. I like it!",
-      name: "@pfara",
+      content: "Extion Infotech has been a game-changer for us. As CTO and CFO, I've witnessed firsthand their innovative tech solutions and financial tools. Their team's expertise and dedication have propelled our growth. They don't just meet expectations; they exceed them. Extion Infotech is the partner you need for success.",
+      name: "@Rishab Gupta",
       image: "",
     },
     {
       content:
-        "I love it! It's clean and simple while still uses best practices, looks great and has great functionality!",
-      name: "Annonymous",
+        "Extion Infotech's Cyber Security internship is a hands-on journey into the world of cutting-edge defense strategies. The mentorship is stellar, fostering innovation and practical skills. Highly recommend for those ready to dive into real-world cybersecurity challenges.",
+      name: "@Sharyu Uchade",
       image: "",
     },
     {
       content:
         "The website is so clean and good. Surprising that it was just made by one person.",
-      name: "@avinashboi",
+      name: "avinashboi",
       image: "",
     },
     {
       content:
         "Very cool website, also love the fact that it's open source because the people using it can contribute and make it better!",
-      name: "@totallyachicken",
+      name: "anonymous",
       image: "",
     },
   ];
