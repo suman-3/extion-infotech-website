@@ -1,7 +1,6 @@
 import React from "react";
 import { MdManageAccounts } from "react-icons/md";
 
-import NumberTicker from "@/components/uianimation/number-ticker";
 import { Trophy, UserPlus } from "lucide-react";
 import { AiOutlineAim } from "react-icons/ai";
 
@@ -18,7 +17,7 @@ const Countercard = () => {
         <div className="flex flex-col gap-[3px] md:gap-1 items-center justify-center">
           <MdManageAccounts className="size-12 shrink-0" />
           <h1 className="text-lg md:text-2xl font-bold">
-            <NumberTicker value={6000} stiffnessValue={300} /> +
+           6000 +
           </h1>
           <p className={cn("text-sm sm:text-md", cardDescriptionClass)}>
             Active Interns
@@ -29,7 +28,7 @@ const Countercard = () => {
         <div className="flex flex-col gap-[3px] items-center justify-center mt-3 lg:mt-0">
           <Trophy className="size-10 lg:size-12 shrink-0" />
           <h1 className="text-lg md:text-2xl font-bold">
-            <NumberTicker value={23} stiffnessValue={70} /> +
+          70 +
           </h1>
           <p className={cn("text-sm sm:text-md", cardDescriptionClass)}>
             Trailblazing <br className="lg:hidden" /> Achievements
@@ -40,7 +39,7 @@ const Countercard = () => {
         <div className="flex flex-col gap-1 items-center justify-center">
           <UserPlus className="size-10 lg:size-12 shrink-0" />
           <h1 className="text-lg md:text-2xl font-bold">
-            <NumberTicker value={500} stiffnessValue={200} /> +
+          500+
           </h1>
           <p className={cn("text-sm sm:text-md", cardDescriptionClass)}>
             Happy Success Stories
@@ -51,7 +50,7 @@ const Countercard = () => {
         <div className="flex flex-col gap-1 items-center justify-center">
           <AiOutlineAim className="size-12 shrink-0" />
           <h1 className={cn("", CardNumberClass)}>
-            <NumberTicker value={28} stiffnessValue={70} /> +
+            28 +
           </h1>
           <p className={cn("text-sm sm:text-md", cardDescriptionClass)}>
             Collective Expertise
