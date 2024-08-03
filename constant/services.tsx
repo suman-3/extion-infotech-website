@@ -9,7 +9,7 @@ import {
 export const services = [
   {
     icon: (
-      <div className="p-4 border rounded-3xl border-text">
+      <div className="p-4 border rounded-3xl border-black dark:border-white">
         <PiMonitor className="size-5 text-blue-600" />
       </div>
     ),
@@ -19,7 +19,7 @@ export const services = [
   },
   {
     icon: (
-      <div className="p-4 border rounded-3xl border-text">
+      <div className="p-4 border rounded-3xl border-black dark:border-white">
         <PiStorefront className="size-5 text-blue-600" />
       </div>
     ),
@@ -29,7 +29,7 @@ export const services = [
   },
   {
     icon: (
-      <div className="p-4 border rounded-3xl border-text">
+      <div className="p-4 border rounded-3xl border-black dark:border-white">
         <PiLock className="size-5 text-blue-600" />
       </div>
     ),
@@ -39,7 +39,7 @@ export const services = [
   },
   {
     icon: (
-      <div className="p-4 border rounded-3xl border-text">
+      <div className="p-4 border rounded-3xl border-black dark:border-white">
         <PiAppStoreLogo className="size-5 text-blue-600" />
       </div>
     ),
@@ -49,7 +49,7 @@ export const services = [
   },
   {
     icon: (
-      <div className="p-4 border rounded-3xl border-text">
+      <div className="p-4 border rounded-3xl border-black dark:border-white">
         <PiMegaphone className="size-5 text-blue-600" />
       </div>
     ),
@@ -59,7 +59,7 @@ export const services = [
   },
   {
     icon: (
-      <div className="p-4 border rounded-3xl border-text">
+      <div className="p-4 border rounded-3xl border-black dark:border-white">
         <PiHeadsetFill className="size-5 text-blue-600" />
       </div>
     ),

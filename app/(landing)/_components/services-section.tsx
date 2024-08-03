@@ -10,7 +10,7 @@ export default function ServiceSection() {
       <div className="flex flex-col space-y-5 items-center justify-center mt-5 md:mt-0 md:mb-8">
         <h1 className="text-4xl md:text-5xl font-bold">
           Streamline your business with our
-          <span className="md:ml-2 bg-white text-background inline-block px-3 py-1 md:py-2 rounded-md">
+          <span className="md:ml-2 bg-black dark:bg-white text-background inline-block px-3 py-1 md:py-2 rounded-md">
             Services
           </span>
         </h1>
