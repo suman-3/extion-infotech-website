@@ -13,9 +13,9 @@ export const services = [
         <PiMonitor className="size-5 text-blue-600" />
       </div>
     ),
-    title: "Website Design",
+    title: "Web Development",
     description:
-      "We build fully responsive websites that look great on all devices. Our websites are designed to convert visitors into customers.",
+      "Boost your online visibility with our professional web development services. We specialize in creating visually stunning, SEO-optimized websites that captivate audiences and enhance user engagement. Let us help you achieve higher search engine rankings and drive meaningful interactions.",
   },
   {
     icon: (
@@ -23,19 +23,20 @@ export const services = [
         <PiStorefront className="size-5 text-blue-600" />
       </div>
     ),
-    title: "E-commerce Store",
+    title: "Digital Marketing",
     description:
-      "From small stores to large online retailers, we have the expertise to build a store that will help you grow your business.",
+      "Enhance your online presence with our SEO-driven digital marketing solutions. We utilize the latest trends and platforms to amplify your brand's reach, boost conversion rates, and maximize your online impact. Let us help you achieve higher search engine rankings and greater audience engagement.",
   },
   {
     icon: (
       <div className="p-4 border rounded-3xl border-text">
-        <PiLock className="size-5 text-blue-600" />
+        <PiHeadsetFill className="size-5 text-blue-600" />
       </div>
     ),
-    title: "Authentication",
+    
+    title: "SaaS Products",
     description:
-      "Secure authentication solutions for your website or app. We use the latest technology to keep your data safe.",
+      "Discover the power of our SEO-optimized SaaS products designed to streamline operations, enhance collaboration, and keep you ahead of the competition. Our user-friendly, scalable software-as-a-service solutions are tailored to elevate your business and boost your online visibility.",
   },
   {
     icon: (
@@ -45,7 +46,7 @@ export const services = [
     ),
     title: "App Development",
     description:
-      "We build custom mobile apps for iOS and Android. Our apps are designed to be user-friendly and performant.",
+      "Leverage our SEO-optimized app development services to turn your ideas into impactful applications. Whether it's iOS, Android, or cross-platform development, we create user-centric apps that deliver seamless experiences and stand out in the app market, enhancing your visibility and reach.",
   },
   {
     icon: (
@@ -53,18 +54,18 @@ export const services = [
         <PiMegaphone className="size-5 text-blue-600" />
       </div>
     ),
-    title: "Social Media",
+    title: "SEO Services",
     description:
-      "We offer social media management and ad creation services. We can help you grow your social media presence and reach new customers.",
+      "Enhance your search engine presence and attract organic traffic with our expert SEO services. Our team utilizes proven strategies to optimize your website, improve search engine rankings, and ensure your brand is easily found by your target audience.",
   },
   {
     icon: (
       <div className="p-4 border rounded-3xl border-text">
-        <PiHeadsetFill className="size-5 text-blue-600" />
+        <PiLock className="size-5 text-blue-600" />
       </div>
     ),
-    title: "Saas",
+    title: "Data Analysis",
     description:
-      "We build custom software as a service (SaaS) solutions. From MVP to full-scale product, we can help you bring your idea to life.",
+      "Harness the power of SEO-focused data analysis to unlock valuable insights from your data. We use advanced analytics tools to interpret complex data sets, helping you make informed decisions, identify trends, and optimize your business strategies based on data-driven intelligence.",
   },
 ];

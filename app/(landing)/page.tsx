@@ -57,7 +57,7 @@ const LandingPage = () => {
         <div className="mt-8 lg:mt-14 relative">
           <div className="container rounded-tl-lg border-x border-t py-8 md:py-10 lg:py-12 flex flex-col gap-y-3 sm:gap-y-4 lg:gap-y-6">
             <h2 className="text-3xl font-semibold sm:text-4xl lg:text-5xl animate-background-shine bg-[linear-gradient(110deg,#939393,45%,#1e293b,55%,#939393)] bg-[length:250%_100%] bg-clip-text text-transparent flex items-center justify-center text-center pb-1 lg:pb-2">
-              Trusted By 4500+ Interns Since 2023.
+              Trusted By 6000+ Interns Since 2023.
             </h2>
             <p
               className={cn(
@@ -65,35 +65,30 @@ const LandingPage = () => {
                 "font-mono lg:py-2 text-center text-[14px] sm:text-sm lg:text-md"
               )}
             >
-              At Extion Infotech, we embark on a journey to bridge innovation
-              and opportunity in the world of technology. Our passion lies in
-              two key pillars: delivering cutting-edge IT solutions and
-              fostering the growth of aspiring minds through internship
-              opportunities.
+              At Extion Infotech, we bridge the gap between innovation and opportunity in technology. Our dual focus is on delivering cutting-edge IT solutions and providing valuable internship experiences for aspiring tech professionals.
+              Our SEO-driven approach ensures our services reach a wide audience, while our internships provide practical experience and mentorship to help future tech leaders grow. We are committed to both technological excellence and professional development.
             </p>
           </div>
 
           <div className="grid grid-cols-1 border-r md:grid-cols-2 lg:grid-cols-4 border-b rounded-br-lg">
-            <Highlight icon={RocketIcon} heading="Light and Fast.">
-              Full powered application with Next.js App Router.
+            <Highlight icon={RocketIcon} heading="Pioneers in Action.">
+              
+Stay ahead with Extion Infotech’s "First On Field" approach. Our proactive solutions ensure you’re always at the forefront, ready to seize opportunities before they emerge.
             </Highlight>
-            <Highlight icon={LayoutIcon} heading="Accessibility & UX first.">
-              An easy-to-use platform with great accessibility and a simple,
-              intuitive interface.
-            </Highlight>
-            <Highlight
-              icon={PersonStandingIcon}
-              heading="Profile Personalization."
-            >
-              Craft and set up your distinctive and fully customizable In-App
-              Identity.
+            <Highlight icon={LayoutIcon} heading="Seamless Accessibility.">
+            Experience seamless connectivity with Extion Infotech's "Easy To Reach" ethos. Our streamlined communication channels ensure effortless and responsive collaboration.
             </Highlight>
             <Highlight
               icon={PersonStandingIcon}
-              heading="Profile Personalization."
+              heading="Global Reach, Local Touch."
             >
-              Craft and set up your distinctive and fully customizable In-App
-              Identity.
+              Enjoy the advantage of Extion Infotech's "Worldwide Services." We offer global solutions with a personalized, local touch, ensuring your business excels on an international scale.
+            </Highlight>
+            <Highlight
+              icon={PersonStandingIcon}
+              heading="Around-the-Clock Assurance."
+            >
+              With Extion Infotech's "24/7 Support," you can rest easy knowing our dedicated team is always at your service. We offer continuous support, providing you with peace of mind around the clock.
             </Highlight>
           </div>
           <Particles
