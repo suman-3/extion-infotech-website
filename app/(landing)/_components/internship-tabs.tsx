@@ -2,34 +2,34 @@
 
 import Internshipcards from "@/components/internships-cards";
 import { Tabs } from "@/components/ui/tabs";
-import { aiml, webDev } from "@/constant/projects";
+import { ai, all, cloud, cyber, ui } from "@/constant/projects";
 
 export function InternShipsTabs() {
   const tabs = [
     {
       title: "All",
-      value: "product",
+      value: "all",
       content: (
         <div className="w-full h-full">
-          <Core />
+          <All />
         </div>
       ),
     },
     {
       title: "AI & App",
-      value: "design",
+      value: "ai",
       content: (
         <div className="w-full h-full">
-          <Design />
+          <AiApp />
         </div>
       ),
     },
     {
       title: "Cloud",
-      value: "design",
+      value: "cloud",
       content: (
         <div className="w-full h-full">
-          <Design />
+          <Cloud />
         </div>
       ),
     },
@@ -44,10 +44,10 @@ export function InternShipsTabs() {
     },
     {
       title: "Cyber Security",
-      value: "design",
+      value: "cyber",
       content: (
         <div className="w-full h-full">
-          <Design />
+          <Cyber />
         </div>
       ),
     },
@@ -73,37 +73,32 @@ export function InternShipsTabs() {
           passion for technology and provide valuable hands-on experience.
         </p>
       </div>
-      <div className="h-[47rem] md:h-[30rem] [perspective:1000px] relative  flex flex-col max-w-6xl mx-auto w-full items-start justify-start mb-8 lg:mb-12">
+      <div className="h-full max-w-6xl mx-auto w-full mb-6">
         <Tabs tabs={tabs} />
       </div>
     </section>
   );
 }
-const Core = () => {
-  return <Internshipcards data={webDev} />;
+
+const All = () => {
+  return <Internshipcards data={all} />;
 };
 const Design = () => {
-  return <Internshipcards data={aiml} />;
+  return <Internshipcards data={ui} />;
 };
 
-const Branding = () => {
+const AiApp = () => {
   return (
-    <div className="flex flex-wrap gap-10 lg:gap-16 max-h-[58rem] lg:max-h-[50rem] overflow-y-auto lg:overscroll-hidden rounded-md w-full px-4 py-5 justify-center items-center">
-      hi
-    </div>
+    <Internshipcards data={ai} />
   );
 };
-const Management = () => {
+const Cloud = () => {
   return (
-    <div className="flex flex-wrap gap-10 lg:gap-16 max-h-[58rem] lg:max-h-[50rem] overflow-y-auto lg:overscroll-hidden rounded-md w-full px-4 py-5 justify-center items-center">
-      hi
-    </div>
+    <Internshipcards data={cloud} />
   );
 };
-const TaskForce = () => {
+const Cyber = () => {
   return (
-    <div className="flex flex-wrap gap-10 lg:gap-16 max-h-[58rem] lg:max-h-[50rem] overflow-y-auto lg:overscroll-hidden rounded-md w-full px-4 py-5 justify-center items-center">
-      hi
-    </div>
+    <Internshipcards data={cyber} />
   );
 };

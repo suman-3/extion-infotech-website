@@ -32,23 +32,11 @@ export default function Internshipcards({data}:{data:any}) {
                   className="flex items-center gap-1"
                   target="_blank"
                 >
-                  <Button size="sm" className="bg-text text-background">
-                    View <ArrowRight className="w-4 h-4 -rotate-45" />
+                  <Button size="sm" className="text-white dark:text-black bg-black dark:bg-white">
+                    Apply Now <ArrowRight className="w-4 h-4 -rotate-45" />
                   </Button>
                 </Link>
-                <Link
-                  href={item.github}
-                  className="flex items-center gap-1"
-                  target="_blank"
-                >
-                  <Button
-                    variant="secondary"
-                    size="sm"
-                    className="px-2.5 bg-text text-background"
-                  >
-                    <FaGithub className="w-4 h-4" />
-                  </Button>
-                </Link>
+                
               </div>
             </div>
           </div>

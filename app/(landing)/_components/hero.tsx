@@ -7,11 +7,82 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { BorderBeam } from "@/components/uianimation/border-beam";
 import BoxReveal from "@/components/uianimation/box-reveal-animation";
-import { GeistSans } from "geist/font/sans";
+import styled, { keyframes } from "styled-components";
+
+const rotate = keyframes`
+  100%{
+    transform: rotate(1turn);
+  }
+`;
+
+const Round = styled.div`
+  position: absolute;
+  bottom: 10rem;
+  right: 5%;
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  z-index: 10;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: 100%;
+    animation: ${rotate} 6s linear infinite reverse;
+  }
+  @media (max-width: 64em) {
+    width: 3.5rem;
+    height: 3.5rem;
+    left: 1.2rem;
+    right: none;
+    bottom: 4rem;
+  }
+  @media (max-width: 48em) {
+    right: 1rem;
+  }
+`;
+
+const Circle = styled.span`
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: #ffffff;
+  color: #171617;
+  font-size: 1.5rem;
+
+  @media (max-width: 48em) {
+    width: 1.3rem;
+    height: 1.3rem;
+    font-size: 1rem;
+    align-items: center;
+    right: 1rem;
+  }
+`;
 
 const Hero = () => {
-  // const user = await currentUser();
 
+  const scrollToNext = (id?: string) => {
+    let element = document.getElementById("next");
+
+    {
+      element &&
+        element.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+          inline: "nearest",
+        });
+    }
+  };
   return (
     <div className="container relative z-[2] flex flex-col items-center overflow-hidden border-x border-t bg-background px-6 pt-12 text-center md:pt-20">
       <BorderBeam size={500} duration={10} delay={6} />
@@ -90,6 +161,10 @@ const Hero = () => {
           ].join(", "),
         }}
       />
+      <Round className="scrollDown" onClick={() => scrollToNext()}>
+        <Circle>&#x2193;</Circle>
+        <img src="/img.png" alt="NFT" />
+      </Round>
     </div>
   );
 };

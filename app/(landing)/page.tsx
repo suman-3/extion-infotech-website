@@ -54,7 +54,7 @@ const LandingPage = () => {
         </div>
 
         {/* About us section  */}
-        <div className="mt-8 lg:mt-14 relative">
+        <div className="mt-8 lg:mt-14 relative" id="next">
           <div className="container rounded-tl-lg border-x border-t py-8 md:py-10 lg:py-12 flex flex-col gap-y-3 sm:gap-y-4 lg:gap-y-6">
             <h2 className="text-3xl font-semibold sm:text-4xl lg:text-5xl animate-background-shine bg-[linear-gradient(110deg,#939393,45%,#1e293b,55%,#939393)] bg-[length:250%_100%] bg-clip-text text-transparent flex items-center justify-center text-center pb-1 lg:pb-2">
               Trusted By 6000+ Interns Since 2023.
