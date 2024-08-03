@@ -18,8 +18,7 @@ export const Footer = () => {
         </div>
 
         <p className="mt-6 max-w-md text-center leading-relaxed sm:max-w-xs sm:text-left">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa
-          cum itaque neque.
+        Explore Our Dynamic Internship Opportunities Designed To Fuel Your Passion For Technology And Provide Hands-On Experience.
         </p>
 
         <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
@@ -115,58 +114,58 @@ export const Footer = () => {
 
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
         <div className="text-center sm:text-left">
-          <p className="text-lg font-medium">About Us</p>
+          <p className="text-lg font-medium">Useful Links</p>
 
           <ul className="mt-8 space-y-4 text-sm">
             <li>
-              <a className="transition hover:opacity-85" href="#">
-                Company History
-              </a>
-            </li>
-
-            {/* <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
-                Meet the Team
+              <a className="transition hover:text-blue-500" href="#">
+                Direct Apply
               </a>
             </li>
 
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
-                Employee Handbook
+              <a className=" transition hover:text-blue-500" href="#">
+                Instagram
               </a>
             </li>
 
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Careers </a>
-            </li> */}
-          </ul>
-        </div>
-
-        {/* <div className="text-center sm:text-left">
-          <p className="text-lg font-medium text-gray-900">Our Services</p>
-
-          <ul className="mt-8 space-y-4 text-sm">
-            <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
-                Web Development
+              <a className=" transition hover:text-blue-500" href="#">
+                LinkedIn
               </a>
             </li>
 
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Web Design </a>
-            </li>
-
-            <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Marketing </a>
-            </li>
-
-            <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Google Ads </a>
+              <a className=" transition hover:text-blue-500" href="#"> Whatsapp </a>
             </li>
           </ul>
         </div>
 
         <div className="text-center sm:text-left">
+          <p className="text-lg font-medium ">Resources</p>
+
+          <ul className="mt-8 space-y-4 text-sm">
+            <li>
+              <a className=" transition hover:text-blue-300" href="#">
+                Support
+              </a>
+            </li>
+
+            <li>
+              <a className=" transition hover:text-blue-300" href="#"> Dashboard </a>
+            </li>
+
+            <li>
+              <a className=" transition hover:text-blue-300" href="#"> Drivers </a>
+            </li>
+
+            <li>
+              <a className=" transition hover:text-blue-300" href="#"> Projects </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* <div className="text-center sm:text-left">
           <p className="text-lg font-medium text-gray-900">Helpful Links</p>
 
           <ul className="mt-8 space-y-4 text-sm">
@@ -178,10 +177,10 @@ export const Footer = () => {
               <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Support </a>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <div className="text-center sm:text-left">
-          <p className="text-lg font-medium text-gray-900">Contact Us</p>
+          <p className="text-lg font-medium ">Contact Information</p>
 
           <ul className="mt-8 space-y-4 text-sm">
             <li>
@@ -191,7 +190,7 @@ export const Footer = () => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="size-5 shrink-0 text-gray-900"
+                  className="size-5 shrink-0 "
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -204,7 +203,7 @@ export const Footer = () => {
                   />
                 </svg>
 
-                <span className="flex-1 text-gray-700">john@doe.com</span>
+                <span className="flex-1 ">info@extioninfotech.com</span>
               </a>
             </li>
 
@@ -215,7 +214,7 @@ export const Footer = () => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="size-5 shrink-0 text-gray-900"
+                  className="size-5 shrink-0 "
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -228,7 +227,8 @@ export const Footer = () => {
                   />
                 </svg>
 
-                <span className="flex-1 text-gray-700">0123456789</span>
+                <span className="flex-1 "> +918445361338
+                </span>
               </a>
             </li>
 
@@ -237,7 +237,7 @@ export const Footer = () => {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="size-5 shrink-0 text-gray-900"
+                className="size-5 shrink-0 "
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -255,12 +255,14 @@ export const Footer = () => {
                 />
               </svg>
 
-              <address className="-mt-0.5 flex-1 not-italic text-gray-700">
-                213 Lane, London, United Kingdom
+              <address className="-mt-0.5 flex-1 not-italic ">
+              Extion Infotech office,
+              100ft road bypass, MES colony road
+              Bareilly 243122, Uttar Pradesh, India
               </address>
             </li>
           </ul>
-        </div> */}
+        </div>
       </div>
     </div>
 
@@ -286,7 +288,7 @@ export const Footer = () => {
           </a>
         </p>
 
-        <p className="mt-4 text-sm text-slate-400 sm:order-first sm:mt-0">&copy; 2022 Company Name</p>
+        <p className="mt-4 text-sm text-slate-400 sm:order-first sm:mt-0">&copy; 2024 Created by: Extion Infotech Team</p>
       </div>
     </div>
   </div>

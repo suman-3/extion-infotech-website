@@ -7,7 +7,7 @@ import { aiml, webDev } from "@/constant/projects";
 export function InternShipsTabs() {
   const tabs = [
     {
-      title: "Core",
+      title: "All",
       value: "product",
       content: (
         <div className="w-full h-full">
@@ -16,7 +16,34 @@ export function InternShipsTabs() {
       ),
     },
     {
-      title: "Design",
+      title: "AI & App",
+      value: "design",
+      content: (
+        <div className="w-full h-full">
+          <Design />
+        </div>
+      ),
+    },
+    {
+      title: "Cloud",
+      value: "design",
+      content: (
+        <div className="w-full h-full">
+          <Design />
+        </div>
+      ),
+    },
+    {
+      title: "Ui/Ux",
+      value: "design",
+      content: (
+        <div className="w-full h-full">
+          <Design />
+        </div>
+      ),
+    },
+    {
+      title: "Cyber Security",
       value: "design",
       content: (
         <div className="w-full h-full">

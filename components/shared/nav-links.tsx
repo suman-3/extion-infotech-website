@@ -9,14 +9,34 @@ const navlinks = [
   },
   {
     id: 1,
-    label: "Services",
-    href: "#services",
+    label: "Courses",
+    href: "#courses",
+  },
+  {
+    id: 1,
+    label: "Internship",
+    href: "#internship",
+  },
+  {
+    id: 1,
+    label: "Pricing",
+    href: "#pricing",
+  },
+  {
+    id: 1,
+    label: "Blogs",
+    href: "#blogs",
+  },
+  {
+    id: 1,
+    label: "Contact Us",
+    href: "#contactus",
   },
 ];
 
 export const NavLinks = ({className}:{className: string}) => {
   return (
-    <div className={cn("flex items-center justify-between gap-7", className)}>
+    <div className={cn("flex items-center justify-between gap-10", className)}>
       {navlinks.map((item) => {
         return (
           <Link
