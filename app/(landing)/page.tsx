@@ -17,6 +17,7 @@ import { WhyChooseUs } from "./_components/why-choose-us";
 import { Footer } from "@/components/shared/footer";
 import { Testimonials } from "./_components/testimonials";
 import { FAQ } from "./_components/faq-section";
+import ServiceSection from "./_components/services-section";
 
 const LandingPage = () => {
   return (
@@ -113,6 +114,9 @@ const LandingPage = () => {
         {/* why coose us section */}
         <div className="mt-8 lg:mt-14">
           <WhyChooseUs />
+        </div>
+        <div className="mt-8 lg:my-20">
+          <ServiceSection/>
         </div>
 
         {/* FAQ Section */}
