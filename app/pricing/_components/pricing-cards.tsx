@@ -7,48 +7,47 @@ import { useState } from 'react'
 const pricingPlans = [
   {
     name: 'Basic',
-    description: 'Start with essential tools to boost your online presence.',
-    monthlyPrice: 69,
-    annualPrice: 49,
-    link: 'https://github.com/ansub/syntaxUI',
+    description: 'Ideal for small businesses and startups, our Basic Plan provides essential tools and support to get you started on the right foot.',
+    monthlyPrice: 239,
+    annualPrice: 20000,
+    link: 'mailto:info@extioninfotech.com',
     features: [
-      'SEO Strategy & Topic Recommendations',
-      'Competitor Analysis to stand out',
-      'Built-in Keyword Research',
-      'Target latest Google trends',
-      'SEO optimized blogs and socials',
+      'Starter Features',
+      'Access To Essential Tools',
+      '24/7 Customer Support',
+      'Regular Updates',
+      'Direct Inquiry for Pricing',
       'Technical SEO analysis and Reports',
-      'Target 100+ regions and languages',
     ],
   },
   {
     name: 'Professional',
     description:
-      'Unlock enhanced features and premium content to supercharge your business.',
-    monthlyPrice: 299,
-    annualPrice: 199,
-    link: 'https://github.com/ansub/syntaxUI',
+      'Our Standard Plan is perfect for growing businesses that need enhanced performance and additional customization options.',
+    monthlyPrice: 418,
+    annualPrice: 35000,
+    link: 'mailto:info@extioninfotech.com',
     features: [
       'Everything in Basic plan',
-      'Get 25 premium blogs',
-      'Index upto 1000 pages',
+      'Advanced Features',
+      'Enhanced Performance',
       'Premium support',
-      'Local SEO',
+      'Customization Options',
       'SEO Agent',
     ],
   },
   {
     name: 'Premium',
     description:
-      'Ultimate customization and dedicated support for enterprises.',
-    monthlyPrice: 2499,
-    annualPrice: 1666,
-    link: 'https://github.com/ansub/syntaxUI',
+      'For businesses that require the full suite of feature our Pro Plan delivers the highest level of service and customization.',
+    monthlyPrice: 539,
+    annualPrice: 45000,
+    link: 'mailto:info@extioninfotech.com',
     features: [
       'Everything in Professional plan',
-      'Get Unlimited premium blogs',
-      'Add your own AI Model key',
-      'Premium support & training sessions',
+      'Cutting-Edge Technology',
+      'Priority Support',
+      'Advanced Customization',
     ],
   },
 ]
@@ -63,7 +62,7 @@ const Pricing = () => {
           Fair pricing, unfair advantage
         </p>
         <p className="text-md max-w-2xl text-gray-700 md:text-center dark:text-gray-300">
-          Get started with Exions Tech today and take your business to the next level.
+        Currently all pricing are only provided after enquiry.
         </p>
       </div>
       <div className="flex items-center justify-center gap-3">
@@ -130,7 +129,7 @@ const Pricing = () => {
               }}
               className="mt-8 w-full rounded-lg bg-text py-2 text-sm font-medium text-white dark:text-black bg-black dark:bg-white hover:bg-white transition-all duration-200 ease-in-out"
             >
-              Get Started
+              Enquire Now
             </motion.button>
           </div>
           {plan.features.map((feature, idx) => (
