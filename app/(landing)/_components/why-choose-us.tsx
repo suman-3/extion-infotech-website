@@ -30,12 +30,7 @@ export const WhyChooseUs = () => {
               "font-mono text-center md:text-left font-medium text-sm lg:text-[1rem]"
             )}
           >
-            Because we don't just meet expectations; we redefine them. With a
-            commitment to excellence, innovative solutions, and client-centric
-            approaches, Extion Infotech ensures a collaborative journey marked
-            by trust, reliability, and unmatched success. Choose Extion Infotech
-            for a transformative alliance that turns your aspirations into
-            achievements.
+            At Extion Infotech, we don’t just meet expectations—we redefine them. Committed to excellence and innovation, we offer client-focused solutions that foster a collaborative journey built on trust, reliability, and exceptional success. Partner with Extion Infotech for a transformative experience that turns your aspirations into tangible achievements.
           </p>
         </div>
         <div className="flex flex-col gap-4 w-full">

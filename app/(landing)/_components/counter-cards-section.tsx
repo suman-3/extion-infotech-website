@@ -18,7 +18,7 @@ const Countercard = () => {
         <div className="flex flex-col gap-[3px] md:gap-1 items-center justify-center">
           <MdManageAccounts className="size-12 shrink-0" />
           <h1 className="text-lg md:text-2xl font-bold">
-            <NumberTicker value={4000} stiffnessValue={300} /> +
+            <NumberTicker value={6000} stiffnessValue={300} /> +
           </h1>
           <p className={cn("text-sm sm:text-md", cardDescriptionClass)}>
             Active Interns

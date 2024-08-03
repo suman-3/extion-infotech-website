@@ -27,7 +27,7 @@ const Hero = () => {
       <h1 className="mb-5 lg:mb-10 text-4xl font-semibold md:text-6xl bg-gradient-to-b from-black to-gray-700/80 dark:from-white dark:to-slate-400 inline-block text-transparent bg-clip-text tracking-tight">
         Providing The Best{" "}
         <span className="relative px-2 bg-gradient-to-b from-black to-gray-700/80 dark:from-white dark:to-slate-400 inline-block text-transparent bg-clip-text tracking-tight">
-          Services & IT
+          Services & IT Solutions
           <Icons.underline className="hidden sm:block pointer-events-none absolute inset-x-0 -bottom-10 text-black dark:text-white" />
         </span>
       </h1>
