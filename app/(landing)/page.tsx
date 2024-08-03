@@ -23,7 +23,6 @@ import { InternShipsTabs } from "./_components/internship-tabs";
 const LandingPage = () => {
   return (
     <>
-      <Navbar />
       <div
         className="absolute inset-x-0 top-[200px] h-[400px] max-md:hidden "
         style={{

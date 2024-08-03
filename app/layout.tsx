@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/providers/theme-provider";
 import { SmoothScrollProvider } from "@/providers/smooth-scroll-provider";
 import { GeistSans } from "geist/font/sans";
 import { cn } from "@/lib/utils";
+import Navbar from "@/components/shared/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ export default function RootLayout({
           attribute="class"
           enableSystem={false}
         >
+          <Navbar/>
           {children}
         </ThemeProvider>
         </SmoothScrollProvider>
