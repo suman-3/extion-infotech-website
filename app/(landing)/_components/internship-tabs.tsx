@@ -56,8 +56,11 @@ export function InternShipsTabs() {
   return (
     <section className="w-full h-full flex flex-col gap-5">
       <div className="flex flex-col space-y-5 items-center justify-center mt-5 md:mt-0 md:mb-8">
-        <h1 className="text-4xl md:text-5xl font-bold">
+        <h1 className="text-4xl md:text-5xl lg:text-5xl text-center md:text-left font-semibold  bg-clip-text tracking-tight">
+        
+        <span className="animate-pulse">
         Opportunities Point
+        </span>
           <span className="md:ml-2 bg-black dark:bg-white text-background inline-block px-3 py-1 md:py-2 rounded-md">
           Internships
           </span>

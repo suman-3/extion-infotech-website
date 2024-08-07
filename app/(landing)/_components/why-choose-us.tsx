@@ -21,7 +21,7 @@ export const WhyChooseUs = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 w-full h-full gap-5 gap-y-10 pl-1 md:pl-3 lg:pl-5">
       <div className="flex items-start flex-col gap-7 lg:gap-9">
         <div className="flex flex-col gap-5 lg:gap-8">
-          <h1 className="text-3xl md:text-3xl lg:text-5xl text-center md:text-left font-semibold bg-gradient-to-b from-black to-gray-700/80 dark:from-white dark:to-slate-400 inline-block text-transparent bg-clip-text tracking-tight">
+          <h1 className="text-3xl md:text-3xl lg:text-5xl text-center md:text-left font-semibold animate-pulse bg-gradient-to-b from-black to-gray-700/80 dark:from-white dark:to-slate-400 inline-block text-transparent bg-clip-text tracking-tight">
             Why Our Customers Choose Working With Us
           </h1>
           <p

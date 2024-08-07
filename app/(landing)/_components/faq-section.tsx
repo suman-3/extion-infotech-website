@@ -15,7 +15,7 @@ export function FAQ() {
   
   return (
     <div className="flex flex-col w-full z-10 px-5 lg:px-10 overflow-hidden rounded-lg border bg-background md:shadow-xl py-10 lg:py-14">
-      <h1 className="scroll-m-20 pb-[3rem] text-center text-3xl font-semibold tracking-tight lg:text-4xl">
+      <h1 className="scroll-m-20 pb-[3rem] text-center text-3xl font-semibold animate-pulse bg-gradient-to-b from-black to-gray-700/80 dark:from-white dark:to-slate-400 inline-block text-transparent bg-clip-text tracking-tight lg:text-4xl">
         Frequently Asked Questions (FAQs)
       </h1>
       <Accordion
