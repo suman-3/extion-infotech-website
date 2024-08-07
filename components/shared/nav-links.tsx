@@ -20,11 +20,11 @@ const navlinks = [
   },
   {
     label: "Blogs",
-    href: "#blogs",
+    href: "/blogs",
   },
   {
     label: "Contact Us",
-    href: "#contactus",
+    href: "/contactus",
   },
 ];
 
