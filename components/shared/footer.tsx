@@ -9,15 +9,15 @@ export const Footer = () => {
   <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
       <div>
-        <div className="flex justify-center text-black dark:text-white sm:justify-start">
-        <Link href="/">
-            <h1 className="tracking-tighter font-bold text-lg  md:text-2xl lg:text-3xl">
+      <div className="flex justify-center sm:justify-start animate-background-shine bg-[linear-gradient(110deg,#939393,45%,#1e293b,55%,#939393)] bg-[length:250%_100%] bg-clip-text text-transparent dark:bg-[linear-gradient(110deg,#939393,45%,#d1d5db,55%,#939393)] dark:bg-[length:250%_100%] dark:bg-clip-text dark:text-transparent text-black dark:text-white">
+       <Link href="/">
+            <h1 className="tracking-tighter font-bold text-lg  md:text-3xl lg:text-4xl">
               Extion Infotech
             </h1>
           </Link>
         </div>
 
-        <p className="mt-6 max-w-md text-center leading-relaxed sm:max-w-xs sm:text-left">
+        <p className="mt-6 max-w-md text-center leading-relaxed sm:max-w-xs animate-light sm:text-left">
         Explore Our Dynamic Internship Opportunities Designed To Fuel Your Passion For Technology And Provide Hands-On Experience.
         </p>
 
@@ -39,6 +39,59 @@ export const Footer = () => {
               </svg>
             </a>
           </li>
+          <li>
+            <a
+              href="#"
+              rel="noreferrer"
+              target="_blank"
+              className="transition  hover:opacity-75"
+            >
+              <span className="sr-only">LinkedIn</span>
+              <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fillRule="evenodd"
+                  d="M22.23 0H1.77C.79 0 0 .77 0 1.75v20.5C0 23.23.79 24 1.77 24h20.46C23.21 24 24 23.23 24 22.25V1.75C24 .77 23.21 0 22.23 0zM7.12 20.452H3.562V9H7.12v11.452zM5.341 7.684a2.093 2.093 0 1 1 0-4.186 2.093 2.093 0 0 1 0 4.186zM20.452 20.452h-3.563v-5.781c0-1.38-.024-3.157-1.923-3.157-1.925 0-2.22 1.505-2.22 3.058v5.88H9.184V9h3.42v1.561h.049c.476-.902 1.635-1.853 3.363-1.853 3.593 0 4.256 2.364 4.256 5.444v6.3z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              rel="noreferrer"
+              target="_blank"
+              className="transition  hover:opacity-75"
+            >
+              <span className="sr-only">Youtube</span>
+              <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fillRule="evenodd"
+                  d="M23.498 6.186a2.833 2.833 0 0 0-1.994-1.994C19.967 4 12 4 12 4s-7.967 0-9.504.192A2.833 2.833 0 0 0 .502 6.186 29.584 29.584 0 0 0 0 12a29.585 29.585 0 0 0 .502 5.814 2.833 2.833 0 0 0 1.994 1.994C4.033 20 12 20 12 20s7.967 0 9.504-.192a2.833 2.833 0 0 0 1.994-1.994A29.585 29.585 0 0 0 24 12a29.584 29.584 0 0 0-.502-5.814zM9.75 15.46V8.54l6.75 3.46-6.75 3.46z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              rel="noreferrer"
+              target="_blank"
+              className="transition  hover:opacity-75"
+            >
+              <span className="sr-only">Twitter</span>
+              <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fillRule="evenodd"
+                  d="M23.643 4.937c-.835.371-1.732.623-2.675.733a4.695 4.695 0 0 0 2.049-2.592 9.348 9.348 0 0 1-2.974 1.14 4.671 4.671 0 0 0-7.945 4.256A13.237 13.237 0 0 1 1.675 3.15a4.662 4.662 0 0 0 1.447 6.232 4.638 4.638 0 0 1-2.115-.583v.059a4.67 4.67 0 0 0 3.746 4.577 4.708 4.708 0 0 1-2.108.081 4.678 4.678 0 0 0 4.366 3.245 9.384 9.384 0 0 1-5.808 2.002c-.378 0-.748-.021-1.113-.065a13.243 13.243 0 0 0 7.172 2.102c8.611 0 13.312-7.133 13.312-13.312 0-.202-.005-.405-.015-.607a9.515 9.515 0 0 0 2.35-2.428l.002-.003z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </a>
+          </li>
+          
+          
 
           {/* <li>
             <a
@@ -114,7 +167,7 @@ export const Footer = () => {
 
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
         <div className="text-center sm:text-left">
-          <p className="text-lg font-medium">Useful Links</p>
+          <p className="text-lg font-bold">Useful Links</p>
 
           <ul className="mt-8 space-y-4 text-sm">
             <li>
@@ -142,7 +195,7 @@ export const Footer = () => {
         </div>
 
         <div className="text-center sm:text-left">
-          <p className="text-lg font-medium ">Resources</p>
+          <p className="text-lg font-bold ">Resources</p>
 
           <ul className="mt-8 space-y-4 text-sm">
             <li>
@@ -255,7 +308,7 @@ export const Footer = () => {
                 />
               </svg>
 
-              <address className="-mt-0.5 flex-1 not-italic ">
+              <address className="-mt-0.5 flex-1 not-italic">
               Extion Infotech office,
               100ft road bypass, MES colony road
               Bareilly 243122, Uttar Pradesh, India
@@ -265,6 +318,38 @@ export const Footer = () => {
         </div>
       </div>
     </div>
+    <div className="relative">
+  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
+      <div className="max-w-xl lg:max-w-lg">
+        
+        <div className="mt-6 flex max-w-md gap-x-4">
+          <label htmlFor="email-address" className="sr-only">
+            Email address
+          </label>
+          <input
+            id="email-address"
+            name="email"
+            type="email"
+            autoComplete="email"
+            
+            className="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+            placeholder="Enter your email"
+          />
+          <button
+            type="submit"
+            className="flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
 
     <div className="mt-12 border-t border-gray-100 pt-6">
       <div className="text-center sm:flex sm:justify-between sm:text-left">
@@ -273,16 +358,16 @@ export const Footer = () => {
 
           <a
             className="inline-block text-teal-600 underline transition hover:text-teal-600/75"
-            href="#"
+            href="https://merchant.razorpay.com/policy/NHggLYY5SAFhps/terms"
           >
             Terms & Conditions
           </a>
 
-          <span>&middot;</span>
+          <span>||</span>
 
           <a
             className="inline-block text-teal-600 underline transition hover:text-teal-600/75"
-            href="#"
+            href="https://merchant.razorpay.com/policy/NHggLYY5SAFhps/terms"
           >
             Privacy Policy
           </a>
@@ -291,7 +376,8 @@ export const Footer = () => {
         <p className="mt-4 text-sm text-slate-400 sm:order-first sm:mt-0">&copy; 2024 Created by: Extion Infotech Team</p>
       </div>
     </div>
-  </div>
+      </div>
+  
 </footer>
   );
 };

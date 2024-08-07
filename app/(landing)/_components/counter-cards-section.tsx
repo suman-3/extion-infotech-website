@@ -12,7 +12,7 @@ const Countercard = () => {
   const CardNumberClass = "text-lg md:text-2xl font-bold";
   const cardDescriptionClass = "text-sm sm:text-md w-full flex text-center";
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 w-full gap-2 sm:gap-3 md:gap-5 lg:gap-7 px-5 py-7 border rounded-lg relative">
+    <div className="grid grid-cols-2 md:grid-cols-4 w-full gap-2 sm:gap-3 md:gap-5 lg:gap-7 px-5 py-7 border animate-buttonheartbeat rounded-lg relative">
       <CardSpotlight>
         <div className="flex flex-col gap-[3px] md:gap-1 items-center justify-center">
           <MdManageAccounts className="size-12 shrink-0" />
