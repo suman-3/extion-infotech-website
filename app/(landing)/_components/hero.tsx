@@ -1,12 +1,11 @@
 "use client";
-import { Button, buttonVariants } from "@/components/ui/button";
-import { Icons } from "@/components/uianimation/curve-icon";
-import { cn } from "@/lib/utils";
-import { GeistMono } from "geist/font/mono";
-import Link from "next/link";
-import { motion } from "framer-motion";
+import { buttonVariants } from "@/components/ui/button";
 import { BorderBeam } from "@/components/uianimation/border-beam";
 import BoxReveal from "@/components/uianimation/box-reveal-animation";
+import { Icons } from "@/components/uianimation/curve-icon";
+import { cn } from "@/lib/utils";
+import { motion } from "framer-motion";
+import Link from "next/link";
 import styled, { keyframes } from "styled-components";
 
 const rotate = keyframes`

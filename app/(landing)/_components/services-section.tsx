@@ -19,8 +19,8 @@ export default function ServiceSection() {
         </h1>
 
         <p className="text-md font-semibold md:text-xl text-left md:text-center w-full md:w-[60%]">
-        At Extion Infotech, our dedication to excellence shines through our meticulously crafted IT solutions. From innovative software development to comprehensive cybersecurity measures, we deliver robust and reliable services. 
-In addition to our exceptional IT offerings, Extion Infotech is a nurturing ground for aspiring professionals. Discover our dynamic internship opportunities, designed to ignite your passion for technology and provide valuable hands-on experience.
+        At Sen-X, our dedication to excellence shines through our meticulously crafted IT solutions. From innovative software development to comprehensive cybersecurity measures, we deliver robust and reliable services. 
+In addition to our exceptional IT offerings, Sen-X is a nurturing ground for aspiring professionals. Discover our dynamic internship opportunities, designed to ignite your passion for technology and provide valuable hands-on experience.
         </p>
       </div>
 

@@ -67,7 +67,7 @@ export function InternShipsTabs() {
         </h1>
 
         <p className="text-md font-semibold md:text-xl text-left md:text-center w-full md:w-[60%]">
-        At Extion Infotech, we are committed to fostering the growth and development of aspiring professionals. Our internship programs are designed to provide hands-on experience, mentorship, and exposure to real-world projects, equipping you with the skills and knowledge needed to excel in the tech industry.
+        At Sen-X, we are committed to fostering the growth and development of aspiring professionals. Our internship programs are designed to provide hands-on experience, mentorship, and exposure to real-world projects, equipping you with the skills and knowledge needed to excel in the tech industry.
         </p>
       </div>
       <div className="h-full max-w-6xl mx-auto w-full mb-6">
