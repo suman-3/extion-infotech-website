@@ -1,6 +1,5 @@
 
 import Link from "next/link";
-import React from "react";
 
 export const Footer = () => {
   return (
@@ -12,7 +11,7 @@ export const Footer = () => {
       <div className="flex justify-center sm:justify-start animate-background-shine bg-[linear-gradient(110deg,#939393,45%,#1e293b,55%,#939393)] bg-[length:250%_100%] bg-clip-text text-transparent dark:bg-[linear-gradient(110deg,#939393,45%,#d1d5db,55%,#939393)] dark:bg-[length:250%_100%] dark:bg-clip-text dark:text-transparent text-black dark:text-white">
        <Link href="/">
             <h1 className="tracking-tighter font-bold text-lg  md:text-3xl lg:text-4xl">
-              Extion Infotech
+              Sen-X
             </h1>
           </Link>
         </div>
@@ -256,7 +255,7 @@ export const Footer = () => {
                   />
                 </svg>
 
-                <span className="flex-1 ">info@extioninfotech.com</span>
+                <span className="flex-1 ">xcriminal369@gmail.com</span>
               </a>
             </li>
 
@@ -280,7 +279,7 @@ export const Footer = () => {
                   />
                 </svg>
 
-                <span className="flex-1 "> +918445361338
+                <span className="flex-1 "> +919831042133
                 </span>
               </a>
             </li>
@@ -309,9 +308,7 @@ export const Footer = () => {
               </svg>
 
               <address className="-mt-0.5 flex-1 not-italic">
-              Extion Infotech office,
-              100ft road bypass, MES colony road
-              Bareilly 243122, Uttar Pradesh, India
+              University of Engineering and Management
               </address>
             </li>
           </ul>
@@ -373,7 +370,7 @@ export const Footer = () => {
           </a>
         </p>
 
-        <p className="mt-4 text-sm text-slate-400 sm:order-first sm:mt-0">&copy; 2024 Created by: Extion Infotech Team</p>
+        <p className="mt-4 text-sm text-slate-400 sm:order-first sm:mt-0">&copy; 2024 Created by: Xcriminal</p>
       </div>
     </div>
       </div>

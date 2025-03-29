@@ -2,7 +2,7 @@ import { MovingCards } from "@/components/uianimation/moving-card";
 import { cn } from "@/lib/utils";
 import { GeistMono } from "geist/font/mono";
 import { LucideIcon, MessageCircleIcon } from "lucide-react";
-import React, { HTMLAttributes, ReactNode } from "react";
+import { HTMLAttributes, ReactNode } from "react";
 
 export const Testimonials = () => {
   const testimonials = [
@@ -12,13 +12,13 @@ export const Testimonials = () => {
       image: "",
     },
     {
-      content: "Extion Infotech has been a game-changer for us. As CTO and CFO, I've witnessed firsthand their innovative tech solutions and financial tools. Their team's expertise and dedication have propelled our growth. They don't just meet expectations; they exceed them. Extion Infotech is the partner you need for success.",
+      content: "Sen-X has been a game-changer for us. As CTO and CFO, I've witnessed firsthand their innovative tech solutions and financial tools. Their team's expertise and dedication have propelled our growth. They don't just meet expectations; they exceed them. Sen-X is the partner you need for success.",
       name: "@Rishab Gupta",
       image: "",
     },
     {
       content:
-        "Extion Infotech's Cyber Security internship is a hands-on journey into the world of cutting-edge defense strategies. The mentorship is stellar, fostering innovation and practical skills. Highly recommend for those ready to dive into real-world cybersecurity challenges.",
+        "Sen-X's Cyber Security internship is a hands-on journey into the world of cutting-edge defense strategies. The mentorship is stellar, fostering innovation and practical skills. Highly recommend for those ready to dive into real-world cybersecurity challenges.",
       name: "@Sharyu Uchade",
       image: "",
     },

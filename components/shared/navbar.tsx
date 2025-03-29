@@ -10,7 +10,7 @@ const Navbar = () => {
         <div>
           <Link href="/">
             <h1 className="tracking-tighter font-bold text-lg  md:text-2xl lg:text-3xl">
-              Extion Infotech
+              Sen-X
             </h1>
           </Link>
         </div>

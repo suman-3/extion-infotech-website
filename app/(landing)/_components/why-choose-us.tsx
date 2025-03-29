@@ -1,17 +1,17 @@
 "use client";
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
+} from "@/components/ui/carousel";
+import { WhyChooseUsContent } from "@/constant/why-choose-us";
 import { cn } from "@/lib/utils";
+import Autoplay from "embla-carousel-autoplay";
 import { GeistMono } from "geist/font/mono";
 import Image from "next/image";
-import React, { useRef } from "react";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-import Autoplay from "embla-carousel-autoplay";
-import { WhyChooseUsContent } from "@/constant/why-choose-us";
+import { useRef } from "react";
 
 export const WhyChooseUs = () => {
   const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
@@ -30,7 +30,7 @@ export const WhyChooseUs = () => {
               "font-mono text-center md:text-left font-medium text-sm lg:text-[1rem]"
             )}
           >
-            At Extion Infotech, we don’t just meet expectations—we redefine them. Committed to excellence and innovation, we offer client-focused solutions that foster a collaborative journey built on trust, reliability, and exceptional success. Partner with Extion Infotech for a transformative experience that turns your aspirations into tangible achievements.
+            At Sen-X, we don’t just meet expectations—we redefine them. Committed to excellence and innovation, we offer client-focused solutions that foster a collaborative journey built on trust, reliability, and exceptional success. Partner with Sen-X for a transformative experience that turns your aspirations into tangible achievements.
           </p>
         </div>
         <div className="flex flex-col gap-4 w-full">

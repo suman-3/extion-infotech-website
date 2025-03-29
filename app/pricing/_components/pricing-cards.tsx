@@ -10,7 +10,7 @@ const pricingPlans = [
     description: 'Ideal for small businesses and startups, our Basic Plan provides essential tools and support to get you started on the right foot.',
     monthlyPrice: 239,
     annualPrice: 20000,
-    link: 'mailto:info@extioninfotech.com',
+    link: 'mailto:xcriminal369@gmail.com',
     features: [
       'Starter Features',
       'Access To Essential Tools',
@@ -26,7 +26,7 @@ const pricingPlans = [
       'Our Standard Plan is perfect for growing businesses that need enhanced performance and additional customization options.',
     monthlyPrice: 418,
     annualPrice: 35000,
-    link: 'mailto:info@extioninfotech.com',
+    link: 'mailto:xcriminal369@gmail.com',
     features: [
       'Everything in Basic plan',
       'Advanced Features',
@@ -42,7 +42,7 @@ const pricingPlans = [
       'For businesses that require the full suite of feature our Pro Plan delivers the highest level of service and customization.',
     monthlyPrice: 539,
     annualPrice: 45000,
-    link: 'mailto:info@extioninfotech.com',
+    link: 'mailto:xcriminal369@gmail.com',
     features: [
       'Everything in Professional plan',
       'Cutting-Edge Technology',
